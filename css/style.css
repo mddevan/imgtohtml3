@@ -55,6 +55,8 @@ header {
 
 .header_nav ul li a:hover {
     background-color: #297FB8;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px; 
 }
 
 /*banner start*/
