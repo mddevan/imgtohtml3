@@ -1,0 +1,321 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #323A45;
+    min-height: 100px;
+}
+
+.wrapper {
+    width: 80%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.header_logo {
+    width: 20%;
+    min-height: 70px;
+    float: left;
+
+}
+
+.header_logo h1 {
+    font-size: 46px;
+    color: #E9E6E1;
+    margin-top: 23px;
+}
+
+.header_nav {
+    width: 60%;
+    min-height: 90px;
+    float: right;
+    overflow: hidden;
+    margin-top: 12px;
+}
+
+.header_nav ul {
+    float: right;
+}
+
+.header_nav ul li {
+    list-style: none;
+    float: left;
+}
+
+.header_nav ul li a {
+    text-decoration: none;
+    display: block;
+    color: #E9E6E1;
+    font-size: 17px;
+    transition: .5s;
+    padding: 35px 24px;
+}
+
+.header_nav ul li a:hover {
+    background-color: #297FB8;
+}
+
+/*banner start*/
+
+.banner {
+    min-height: 350px;
+    background-image: url(../images/background-blank-blue-132204.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.banner_content {
+    width: 60%;
+    min-height: 200px;
+    margin: 0 auto;
+    overflow: hidden;
+    color: black;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.banner_content h1 {
+    font-size: 46px;
+    margin-top: 14px;
+}
+
+.banner_content p {
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: 20px;
+}
+
+.banner_button {
+    margin-top: 28px;
+
+}
+
+.banner_button button {
+    padding: 10px 22px;
+    background: transparent;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 15px;
+
+}
+
+/*banner end*/
+
+/*detail start*/
+
+.detail {
+    min-height: 200px;
+    background-color: #E9E6E1;
+    overflow: hidden;
+}
+
+.detail_content {
+    width: 90%;
+    min-height: 150px;
+    margin-top: 58px;
+}
+
+.detail p {
+    font-size: 21px;
+    text-align: center;
+    color: #9A9DA2;
+}
+
+.blue {
+    color: #28A7D0;
+    font-size: 24px;
+}
+
+.black {
+    color: #7D848D;
+    font-size: 24px;
+}
+
+/*detail end*/
+
+/*section start*/
+
+.services {
+    min-height: 650px;
+    background-color: #F0F0F0;
+
+}
+
+.service_top {
+    min-height: 250px;
+    overflow: hidden;
+    margin-top: 45px;
+}
+
+.single {
+    min-height: 250px;
+    width: 22%;
+    background-color: #E2E0E1;
+    float: left;
+    overflow: hidden;
+    margin: 0 15px;
+    border: none;
+    border-radius: 3px;
+}
+
+.single_logo {
+    width: 20%;
+    min-height: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.single_logo img {
+    width: 100%;
+
+}
+
+.single h4 {
+    font-size: 17px;
+    text-align: center;
+    color: #7D848D;
+    margin-top: 4px;
+    line-height: 16px;
+}
+
+.single_logo_text {
+    color: #28A7D0;
+}
+
+.single p {
+    text-align: center;
+    color: #7D848D;
+    margin-top: 18px;
+    padding: 2px 3px;
+}
+
+.service_bottom {
+    min-height: 250px;
+    overflow: hidden;
+    overflow: hidden;
+    margin-top: 55px;
+}
+
+.recent_work {
+    width: 35%;
+    min-height: 250px;
+    float: left;
+    background-color: #F0F0F0;
+    color: #B2B2B0;
+    margin-left: 15px;
+    border: none;
+    border-radius: 3px;
+
+}
+
+.para_color {
+    color: #7D848D;
+}
+
+.recent_work h3 {
+    margin-top: 8px;
+    font-weight: 100;
+    font-size: 22px;
+
+}
+
+.recent_work p {
+    margin-top: 15px;
+}
+
+.recent_work_button {
+    margin-top: 21px;
+}
+
+.recent_work_button button {
+    padding: 6px 9px;
+    background-color: #28A7D0;
+    border: none;
+    border-radius: 3px;
+}
+
+.bottom_box {
+    width: 20%;
+    min-height: 250px;
+    background-color: #34495E;
+    float: left;
+    overflow: hidden;
+    text-align: center;
+    border: none;
+    border-radius: 3px;
+    color: lightgrey;
+    margin-left: 11px;
+}
+
+.bottom_box_logo {}
+
+.bottom_box_logo img {
+    width: 100%;
+    height: 145px;
+}
+
+.bottom_box h4 {
+    margin-top: 11px;
+}
+
+.bottom_box p {
+    color: darkgrey;
+    margin: 10px 10px;
+}
+
+/*section end*/
+
+/*links start*/
+
+.links {
+    min-height: 200px;
+    background-color: #2A80B9;
+    overflow: hidden;
+}
+
+.links_content {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+    color: lightgrey;
+
+}
+
+.links_content h3 {
+    font-weight: 100;
+    margin-top: 33px;
+}
+
+.links_content p {
+    margin-top: 13px;
+    line-height: 33px;
+}
+
+.links_img {}
+
+.links_img img {
+    margin-left: 382px;
+    margin-top: 14px;
+}
+
+/*links end*/
+
+/*footer start*/
+
+footer {
+    min-height: 70px;
+    background-color: #34495E;
+}
+
+footer p {
+    color: lightgrey;
+    text-align: center;
+    margin-top: 32px;
+}
+
+/*footer end*/
